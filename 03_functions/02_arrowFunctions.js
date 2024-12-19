@@ -53,5 +53,5 @@ console.log(addNum(1, 2));
 
 // implicit return
 
-const addNum2 = (num1, num2) => (num1 + num2); // helps in return objects, wrap them inside the paranthesis
+const addNum2 = (num1, num2) => (num1 + num2); // helps in return objects, wrap them inside the paranthesis 
 console.log(addNum2(1, 2));
