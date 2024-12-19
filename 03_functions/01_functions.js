@@ -15,3 +15,8 @@ function addTwoNumbers(num1, num2){
 console.log(addTwoNumbers(1, 2));
 
 
+function calculateCartPrice(...items){ // rest operator
+    return items;
+}
+
+console.log(calculateCartPrice(100,200,23));
